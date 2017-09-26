@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+Body{
+	background-color: black;
+	
+}
+
+.hi {
+  background-image: url(Photos/img-mission-background.jpg);
+  height: 700px;
+  color:white; 
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+	
+}
+
+.container {
+display: flex;
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+border-bottom: 1px solid seashell;
+position:fixed;
+width: 100%;
+background-color: black;
+margin: 0 auto;
+}
+
+nav{
+	margin:-10px;
+	padding-left: 800px;
+}
+
+ul {
+  text-align: right;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:seashell;
+	
+}
+
+h2 {
+	font-size: 23px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:seashell;
+
+	
+}
+
+p {
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: left;
+	color:seashell;
+	
+}
+
+h3 {
+	color:seashell;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 22px;
+	margin:110px;
+	margin-left:-240px;
+	padding-top:100px;
+	
+
+}
+
+h5{
+	font-size: 23px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+
+#Mission {
+	background-color: black;
+	width: 100%;
+	margin-top: 200px;
+}
+
+#Featured-Tea{
+	background-color: black;
+	color: seashell;
+	width: 1000px;
+	padding-left:250px;
+	
+	
+	
+}
+
+#photos {
+	 
+   display: inline-flex;
+	flex-wrap: wrap;
+  justify-content: center; 
+	padding-left: 150px;
+	
+}
+
+
+
+#locations{
+	
+	
+}
+
+.last{
+	
+   background-image: url('Photos/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;	
+	height: 500px;
+	text-align: center;
+	column-count: 3;
+	padding-top: 200px;
+    text-shadow: -2px 0 #FFFFFF,0 2px #FFFFFF,2px 0 #FFFFFF,0 -2px #FFFFFF;   
+    
+}
+
+
+
+
+.header {
+  
+	width: 100%;
+	background-color: black;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header li a {
+  color: seashell;
+  margin:10px;
+  border:0;
+  font-size:22px;
+  text-decoration: underline;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+ 
+	
+}
+
+.footer {
+  
+  background-color: #000;
+  color:seashell;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+
+
+.footer p {
+  font-size:12px;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
